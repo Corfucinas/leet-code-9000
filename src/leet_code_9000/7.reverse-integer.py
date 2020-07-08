@@ -7,12 +7,12 @@
 
 # @lc code=start
 class Solution:
-    def reverse(self, x: int) -> int:
+    def reverse(self, x: int) -> int:  # sourcery skip: move-assign
+        string = str(x)
         if x >= 2 ** 31 - 1 or x <= -(2 ** 31):
             return 0
         else:
             if x >= 0:
-                string = str(x)
                 reverse_string = string[::-1]
             else:
                 temp = string[1:]
