@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "leet-code-9000"
+version = "0.1.0"
+description = "Personal repository for leet code challenges"
+authors = ["Pedro Torres <corfucinas@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Corfucinas/leet-code-9000"
+keywords = ["leetcode", "repository", "challenges", "coding"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+wemake-python-styleguide = "^0.14.0"
+mypy = "^0.782"
+black = "^19.10b0"
+isort = "^5.0.5"
+pytest-mock = "^3.1.1"
+pytest-cov = "^2.10.0"
+flake8-black = "^0.2.0"
+flake8-docstrings = "^1.5.0"
+pre-commit = "^2.6.0"
+xdoctest = "^0.12.0"
+flake8-bandit = "^2.1.2"
+darglint = "^1.5.1"
+nox = "^2020.5.24"
+
+[tool.black]
+line-length = 79
+exclude = '''
+(
+  /(
+      \.eggs
+    | \.git
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+)
+'''
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
