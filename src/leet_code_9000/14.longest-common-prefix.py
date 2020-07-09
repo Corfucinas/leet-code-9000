@@ -11,6 +11,8 @@ from typing import List
 
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
+        if not strs:
+            return ''
         res = ''
         prefix = strs[0]
         for string in strs[1:]:
