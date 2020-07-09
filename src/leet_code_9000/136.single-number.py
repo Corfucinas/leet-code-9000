@@ -11,7 +11,7 @@ from typing import List
 
 
 class Solution:
-    def singleNumber(self, nums: List[int]) -> int:
+    def singleNumber(self, nums: List[int]) -> int:  # type: ignore
         for unique in nums:
             if nums.count(unique) == 1:
                 return unique
