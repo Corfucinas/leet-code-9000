@@ -21,7 +21,7 @@ class Solution:
             'XL': 40,
             'XC': 90,
             'CD': 400,
-            'CM': 900
+            'CM': 900,
         }
         integer = 0
         for i in range(len(s)):

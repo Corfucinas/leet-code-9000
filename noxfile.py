@@ -23,6 +23,7 @@ locations = (
 
 _PYTHON_VERSIONS = ['3.7', '3.8']
 
+
 def install_with_constraints(  # type: ignore
     session: Session, *args: str, **kwargs: Any,
 ) -> None:
