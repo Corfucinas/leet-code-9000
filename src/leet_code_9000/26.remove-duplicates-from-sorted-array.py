@@ -9,6 +9,7 @@
 
 from typing import List
 
+
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         if not nums:
@@ -20,5 +21,6 @@ class Solution:
                 nums[index_to_update] = element
 
         return index_to_update + 1
+
 
 # @lc code=end
