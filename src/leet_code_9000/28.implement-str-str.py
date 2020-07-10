@@ -9,6 +9,7 @@
 
 from collections import Counter
 
+
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if not needle:
@@ -17,5 +18,6 @@ class Solution:
             return haystack.index(needle)
         except ValueError:
             return -1
+
 
 # @lc code=end
