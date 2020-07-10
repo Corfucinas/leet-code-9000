@@ -7,7 +7,7 @@
 
 # @lc code=start
 
-from typing import List, Dict
+from typing import Dict, List
 
 
 class Solution:
