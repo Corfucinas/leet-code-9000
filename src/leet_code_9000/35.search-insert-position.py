@@ -11,9 +11,9 @@ from typing import List
 
 
 class Solution:
-    def searchInsert(
+    def searchInsert(  #  type: ignore
         self, nums: List[int], target: int
-    ) -> int:  #  type: ignore
+    ) -> int:
         for i in nums:
             if i == target or target < i:
                 return nums.index(i)
