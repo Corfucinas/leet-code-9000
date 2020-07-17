@@ -7,7 +7,7 @@ from typing import Any
 import nox
 from nox.sessions import Session
 
-package = 'crypto_candlesticks'
+package = 'leet-code-9000'
 nox.options.sessions = (
     'xdoctest',
     'safety',
@@ -42,7 +42,7 @@ def install_with_constraints(  # type: ignore
         kwargs: Additional keyword arguments for Session.install.
 
     """
-    with tempfile.NamedTemporaryFile(delete=True) as requirements:
+    with tempfile.NamedTemporaryFile(delete=False) as requirements:
         session.run(
             'poetry',
             'export',
@@ -91,7 +91,7 @@ def lint(session: Session) -> None:
 @nox.session(python=_PYTHON_VERSIONS)
 def safety(session: Session) -> None:
     """Scan dependencies for insecure packages."""
-    with tempfile.NamedTemporaryFile(delete=True) as requirements:
+    with tempfile.NamedTemporaryFile(delete=False) as requirements:
         session.run(
             'poetry',
             'export',
