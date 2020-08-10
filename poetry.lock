@@ -102,6 +102,7 @@ version = "7.1.2"
 [[package]]
 category = "dev"
 description = "Cross-platform colored terminal text."
+marker = "platform_system == \"Windows\" or sys_platform == \"win32\" or python_version > \"3.4\""
 name = "colorama"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
@@ -678,13 +679,16 @@ description = "Code Metrics in Python"
 name = "radon"
 optional = false
 python-versions = "*"
-version = "4.1.0"
+version = "4.2.0"
 
 [package.dependencies]
-colorama = "0.4.1"
 flake8-polyfill = "*"
 future = "*"
 mando = ">=0.6,<0.7"
+
+[package.dependencies.colorama]
+python = ">=3.5"
+version = ">=0.4.1"
 
 [[package]]
 category = "dev"
@@ -849,7 +853,7 @@ optional = ["pygments", "colorama"]
 tests = ["pytest", "pytest-cov", "codecov", "scikit-build", "cmake", "ninja", "pybind11"]
 
 [metadata]
-content-hash = "e0adfad8c4ec2a58561ac080c36ab1f9fa1f78036e22fe4cf06599350d376609"
+content-hash = "9f6eddde4474f824ace7b0301deaea98c65c19d1a0346f1f2d3c2d5e292cc918"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -1143,8 +1147,8 @@ pyyaml = [
     {file = "PyYAML-5.3.1.tar.gz", hash = "sha256:b8eac752c5e14d3eca0e6dd9199cd627518cb5ec06add0de9d32baeee6fe645d"},
 ]
 radon = [
-    {file = "radon-4.1.0-py2.py3-none-any.whl", hash = "sha256:0c18111ec6cfe7f664bf9db6c51586714ac8c6d9741542706df8a85aca39b99a"},
-    {file = "radon-4.1.0.tar.gz", hash = "sha256:56082c52206db45027d4a73612e1b21663c4cc2be3760fee769d966fd7efdd6d"},
+    {file = "radon-4.2.0-py2.py3-none-any.whl", hash = "sha256:215e42c8748b5ca8ddf7c061831600b9e73e9c48770a81eeaaeeb066697aee15"},
+    {file = "radon-4.2.0.tar.gz", hash = "sha256:b73f6f469c15c9616e0f7ce12080a9ecdee9f2335bdbb5ccea1f2bae26e8d20d"},
 ]
 regex = [
     {file = "regex-2020.7.14-cp27-cp27m-win32.whl", hash = "sha256:e46d13f38cfcbb79bfdb2964b0fe12561fe633caf964a77a5f8d4e45fe5d2ef7"},
