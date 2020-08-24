@@ -805,7 +805,10 @@ description = "Find dead code"
 name = "vulture"
 optional = false
 python-versions = ">=3.6"
-version = "2.0"
+version = "2.1"
+
+[package.dependencies]
+toml = "*"
 
 [[package]]
 category = "dev"
@@ -853,7 +856,7 @@ optional = ["pygments", "colorama"]
 tests = ["pytest", "pytest-cov", "codecov", "scikit-build", "cmake", "ninja", "pybind11"]
 
 [metadata]
-content-hash = "945bba19333e1a771f7e273d86edbcd94292d403a6f73a1fa9bd86f91470feaa"
+content-hash = "5ce362bf5ca5a65e83bb906d9452c37fe4da3fc96297b2aad22131e3611e2571"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -1234,8 +1237,8 @@ virtualenv = [
     {file = "virtualenv-20.0.28.tar.gz", hash = "sha256:688a61d7976d82b92f7906c367e83bb4b3f0af96f8f75bfcd3da95608fe8ac6c"},
 ]
 vulture = [
-    {file = "vulture-2.0-py2.py3-none-any.whl", hash = "sha256:d61fd85cc9b43e263e6b813c1ab4936e7000e0fee6558e63461074c893fef3d9"},
-    {file = "vulture-2.0.tar.gz", hash = "sha256:ab0dce458ab746212cc02ac10cf31912c43bbfdcccb49025745b00850beab086"},
+    {file = "vulture-2.1-py2.py3-none-any.whl", hash = "sha256:f4b3a422a6cb0285ec9df0ed46241a8577fa53ec3c43f8c70bd2a4d708c95377"},
+    {file = "vulture-2.1.tar.gz", hash = "sha256:933bf7f3848e9e39ecab6a12faa59d5185471c887534abac13baea6fe8138cc2"},
 ]
 wemake-python-styleguide = [
     {file = "wemake-python-styleguide-0.14.0.tar.gz", hash = "sha256:633d738b65c7ddf0c2b9e26e9d889d76f0f1993a82902821da359f08b233dbc8"},
