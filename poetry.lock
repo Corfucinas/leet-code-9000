@@ -845,7 +845,7 @@ description = "A rewrite of the builtin doctest module"
 name = "xdoctest"
 optional = false
 python-versions = "*"
-version = "0.13.0"
+version = "0.14.0"
 
 [package.dependencies]
 six = "*"
@@ -856,7 +856,8 @@ optional = ["pygments", "colorama"]
 tests = ["pytest", "pytest-cov", "codecov", "scikit-build", "cmake", "ninja", "pybind11"]
 
 [metadata]
-content-hash = "ceab8e6e76e1e633623d2efe1c6ed4e602b2d51034cfa089a1ed47c9a9544d22"
+content-hash = "20fe6c62ad29a5b6f29f046c0136f10ea25e798501d5b87ae70cfbaf16ee39dd"
+lock-version = "1.0"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -1245,6 +1246,6 @@ wemake-python-styleguide = [
     {file = "wemake_python_styleguide-0.14.0-py3-none-any.whl", hash = "sha256:21e09b786a38f62399dc727ca801f49084dcbc025b5ac44faf8182f959deb6e0"},
 ]
 xdoctest = [
-    {file = "xdoctest-0.13.0-py2.py3-none-any.whl", hash = "sha256:de861fd5230a46bd26c054b4981169dd963f813768cb62b62e104e4d2644ac94"},
-    {file = "xdoctest-0.13.0.tar.gz", hash = "sha256:4f113a430076561a9d7f31af65b5d5acda62ee06b05cb6894264cb9efb8196ac"},
+    {file = "xdoctest-0.14.0-py2.py3-none-any.whl", hash = "sha256:312c0afa79a0a6e29737cc0bc4acdf8299133b70ce7c4d7ed254d6950ec34fff"},
+    {file = "xdoctest-0.14.0.tar.gz", hash = "sha256:f1a218eacb89401cb0547beba684a4d649d1f09b2492a346816c0cf35e36257c"},
 ]
