@@ -10,7 +10,7 @@
 
 class Solution:
     def generateTheString(self, n: int) -> str:
-        return ''.join('a' * ((n - 1) // 2 * 2 + 1) + 'b' * (1 - n % 2))
+        return "".join("a" * ((n - 1) // 2 * 2 + 1) + "b" * (1 - n % 2))
 
 
 # @lc code=end

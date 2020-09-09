@@ -17,7 +17,7 @@ class Solution:
             else:
                 temp = string[1:]
                 temp2 = temp[::-1]
-                reverse_string = '-' + temp2
+                reverse_string = "-" + temp2
             if int(reverse_string) >= 2 ** 31 - 1 or int(reverse_string) <= -(
                 2 ** 31
             ):

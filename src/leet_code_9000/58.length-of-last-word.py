@@ -11,7 +11,7 @@ class Solution:
         l = 0
         clean = s.strip()
         for item in clean:
-            if item == ' ':
+            if item == " ":
                 l = 0
             else:
                 l += 1

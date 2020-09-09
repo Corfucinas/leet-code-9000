@@ -23,7 +23,7 @@ class Solution:
             result.append(str(val))
         if carry:
             result.append(str(carry))
-        return ''.join(result[::-1])
+        return "".join(result[::-1])
 
 
 # @lc code=end

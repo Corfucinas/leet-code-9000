@@ -14,7 +14,7 @@ class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if not prices:
             return 0
-        profit, stock = float('-inf'), prices[0]
+        profit, stock = float("-inf"), prices[0]
         for p in prices:
             profit = max(profit, p - stock)
             stock = min(stock, p)

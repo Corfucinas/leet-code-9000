@@ -11,7 +11,7 @@ class Solution:
         s = list(s)
         i, j = 0, len(s) - 1
 
-        vowels = set('aeiouAEIOU')
+        vowels = set("aeiouAEIOU")
 
         while i < j:
             # Swap
@@ -26,7 +26,7 @@ class Solution:
             elif s[i] not in vowels:
                 i += 1
 
-        return ''.join(s)
+        return "".join(s)
 
 
 # @lc code=end

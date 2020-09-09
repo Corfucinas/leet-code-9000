@@ -8,7 +8,7 @@
 # @lc code=start
 class Solution:
     def isValid(self, s: str) -> bool:
-        brackets = {'(': ')', '[': ']', '{': '}'}
+        brackets = {"(": ")", "[": "]", "{": "}"}
         valid = []
         for item in s:
             if item in brackets:
