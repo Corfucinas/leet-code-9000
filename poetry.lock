@@ -849,18 +849,20 @@ description = "A rewrite of the builtin doctest module"
 name = "xdoctest"
 optional = false
 python-versions = "*"
-version = "0.14.0"
+version = "0.15.0"
 
 [package.dependencies]
 six = "*"
 
 [package.extras]
-all = ["six", "pytest", "pytest-cov", "codecov", "scikit-build", "cmake", "ninja", "pybind11", "pygments", "colorama"]
-optional = ["pygments", "colorama"]
-tests = ["pytest", "pytest-cov", "codecov", "scikit-build", "cmake", "ninja", "pybind11"]
+all = ["six", "pytest", "pytest-cov", "codecov", "scikit-build", "cmake", "ninja", "pybind11", "pygments", "colorama", "nbformat", "nbconvert", "jupyter-client", "ipython", "ipykernel"]
+colors = ["pygments", "colorama"]
+jupyter = ["nbformat", "nbconvert", "jupyter-client", "ipython", "ipykernel"]
+optional = ["pygments", "colorama", "nbformat", "nbconvert", "jupyter-client", "ipython", "ipykernel"]
+tests = ["pytest", "pytest-cov", "codecov", "scikit-build", "cmake", "ninja", "pybind11", "nbformat", "nbconvert", "jupyter-client", "ipython", "ipykernel"]
 
 [metadata]
-content-hash = "ec4dc44c2ad8259ebd3622ede11adc65b98b74f3f0f71b071309ab1becb3922c"
+content-hash = "f77df7b6c14399af5e240ae6e5219c00e1e14bdba4d0e2adce8713b570fb7f29"
 lock-version = "1.0"
 python-versions = "^3.8"
 
@@ -1250,6 +1252,6 @@ wemake-python-styleguide = [
     {file = "wemake_python_styleguide-0.14.0-py3-none-any.whl", hash = "sha256:21e09b786a38f62399dc727ca801f49084dcbc025b5ac44faf8182f959deb6e0"},
 ]
 xdoctest = [
-    {file = "xdoctest-0.14.0-py2.py3-none-any.whl", hash = "sha256:312c0afa79a0a6e29737cc0bc4acdf8299133b70ce7c4d7ed254d6950ec34fff"},
-    {file = "xdoctest-0.14.0.tar.gz", hash = "sha256:f1a218eacb89401cb0547beba684a4d649d1f09b2492a346816c0cf35e36257c"},
+    {file = "xdoctest-0.15.0-py2.py3-none-any.whl", hash = "sha256:695ea04303a48cbb319709270d43f7bae7f3de3701aec73f09d90a216499992e"},
+    {file = "xdoctest-0.15.0.tar.gz", hash = "sha256:7f0a184d403b69b166ebec1aadb13c98c96c59101e974ae2e4db4c3a803ec371"},
 ]
