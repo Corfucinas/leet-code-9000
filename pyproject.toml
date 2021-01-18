@@ -26,7 +26,7 @@ xdoctest = "^0.15.0"
 flake8-bandit = "^2.1.2"
 darglint = "^1.5.8"
 nox = "^2020.12.31"
-vulture = "^2.1"
+vulture = "^2.3"
 radon = "^4.3.2"
 
 [tool.black]
