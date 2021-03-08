@@ -27,7 +27,7 @@ flake8-bandit = "^2.1.2"
 darglint = "^1.7.0"
 nox = "^2020.12.31"
 vulture = "^2.3"
-radon = "^4.3.2"
+radon = "^4.4.0"
 
 [tool.black]
 line-length = 79
