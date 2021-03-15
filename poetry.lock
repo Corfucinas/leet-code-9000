@@ -666,7 +666,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
 [[package]]
 name = "radon"
-version = "4.4.0"
+version = "4.5.0"
 description = "Code Metrics in Python"
 category = "dev"
 optional = false
@@ -850,7 +850,7 @@ tests = ["pytest", "pytest-cov", "codecov", "scikit-build", "cmake", "ninja", "p
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "cc658f6df1fc13a3dc1a5bdcd59d0d7bcc7370667c2be35d39c887d24b9725e5"
+content-hash = "7d1a293277e1d524483264860c9ce6dd9df655f591037fb7e17fa545c34d5049"
 
 [metadata.files]
 appdirs = [
@@ -1150,8 +1150,8 @@ pyyaml = [
     {file = "PyYAML-5.3.1.tar.gz", hash = "sha256:b8eac752c5e14d3eca0e6dd9199cd627518cb5ec06add0de9d32baeee6fe645d"},
 ]
 radon = [
-    {file = "radon-4.4.0-py2.py3-none-any.whl", hash = "sha256:7b67593910835547901bbc5cab212fa5a11662e6e9415f2becddc493d6dab5a4"},
-    {file = "radon-4.4.0.tar.gz", hash = "sha256:73798b6fd188f511041e6c82551972b39dd4b1c634b6649851246a50b72d9716"},
+    {file = "radon-4.5.0-py2.py3-none-any.whl", hash = "sha256:ad4c1b7a228cb4d33f7500e89326fd98d287938b96820e748ccdbd1a9bf91f0b"},
+    {file = "radon-4.5.0.tar.gz", hash = "sha256:7afa65db14d759616ab68033e0e1caf1f624c97308dd256afa47518ecebddf6e"},
 ]
 regex = [
     {file = "regex-2020.9.27-cp27-cp27m-win32.whl", hash = "sha256:d23a18037313714fb3bb5a94434d3151ee4300bae631894b1ac08111abeaa4a3"},
