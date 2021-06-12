@@ -25,7 +25,7 @@ pre-commit = "^2.13.0"
 xdoctest = "^0.15.4"
 flake8-bandit = "^2.1.2"
 darglint = "^1.8.0"
-nox = "^2020.12.31"
+nox = "^2021.6.6"
 vulture = "^2.3"
 radon = "^4.5.2"
 
