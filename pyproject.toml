@@ -13,7 +13,7 @@ python = "^3.8"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2"
-wemake-python-styleguide = "^0.15.2"
+wemake-python-styleguide = "^0.15.3"
 mypy = "^0.902"
 black = "^21.6b0"
 isort = "^5.9.1"
