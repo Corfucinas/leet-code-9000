@@ -64,7 +64,7 @@ stevedore = ">=1.20.0"
 
 [[package]]
 name = "black"
-version = "21.8b0"
+version = "21.9b0"
 description = "The uncompromising code formatter."
 category = "dev"
 optional = false
@@ -869,7 +869,7 @@ tests = ["codecov", "scikit-build", "cmake", "ninja", "pybind11", "pytest", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "c62ca89b7ab8128c47c4527181e99c2bf19a0967f2388e134a978f97f784e41b"
+content-hash = "fe1b0383371b08ffae3b3ca59c2535142009f635ac43c45853a0c2c28e4fc3ed"
 
 [metadata.files]
 appdirs = [
@@ -897,8 +897,8 @@ bandit = [
     {file = "bandit-1.6.2.tar.gz", hash = "sha256:41e75315853507aa145d62a78a2a6c5e3240fe14ee7c601459d0df9418196065"},
 ]
 black = [
-    {file = "black-21.8b0-py3-none-any.whl", hash = "sha256:2a0f9a8c2b2a60dbcf1ccb058842fb22bdbbcb2f32c6cc02d9578f90b92ce8b7"},
-    {file = "black-21.8b0.tar.gz", hash = "sha256:570608d28aa3af1792b98c4a337dbac6367877b47b12b88ab42095cfc1a627c2"},
+    {file = "black-21.9b0-py3-none-any.whl", hash = "sha256:380f1b5da05e5a1429225676655dddb96f5ae8c75bdf91e53d798871b902a115"},
+    {file = "black-21.9b0.tar.gz", hash = "sha256:7de4cfc7eb6b710de325712d40125689101d21d25283eed7e9998722cf10eb91"},
 ]
 cfgv = [
     {file = "cfgv-3.2.0-py2.py3-none-any.whl", hash = "sha256:32e43d604bbe7896fe7c248a9c2276447dbef840feb28fe20494f62af110211d"},
