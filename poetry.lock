@@ -483,7 +483,7 @@ python-versions = "*"
 
 [[package]]
 name = "nox"
-version = "2021.6.12"
+version = "2021.10.1"
 description = "Flexible test automation."
 category = "dev"
 optional = false
@@ -869,7 +869,7 @@ tests = ["codecov", "scikit-build", "cmake", "ninja", "pybind11", "pytest", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "1fb98a8951bc3b4339ce3537b8dd47446ac5ae0e23d20e365628e36f88a3af3d"
+content-hash = "b473b0c92d24405e15c280aae8c5007395c55c4dfc1d37aba579449f9cf9a015"
 
 [metadata.files]
 appdirs = [
@@ -1112,8 +1112,8 @@ nodeenv = [
     {file = "nodeenv-1.5.0.tar.gz", hash = "sha256:ab45090ae383b716c4ef89e690c41ff8c2b257b85b309f01f3654df3d084bd7c"},
 ]
 nox = [
-    {file = "nox-2021.6.12-py3-none-any.whl", hash = "sha256:1e90df301f6622efb1c29d1586e5a5755846b1eb99b2764230304f8fa31d1734"},
-    {file = "nox-2021.6.12.tar.gz", hash = "sha256:955dbeb8e657a08226f8c1c8f8d1e2a40fe5438a792056314f351e504639a80f"},
+    {file = "nox-2021.10.1-py3-none-any.whl", hash = "sha256:1bb224fb09c26c482932f0e3038ef01c27b4025d559066443a4da1f96daad01a"},
+    {file = "nox-2021.10.1.tar.gz", hash = "sha256:0a1c735d5e90fa234046b58a5ad61d08bc13ae77ab213da9b58d5cc2d25023ae"},
 ]
 packaging = [
     {file = "packaging-20.9-py2.py3-none-any.whl", hash = "sha256:67714da7f7bc052e064859c05c595155bd1ee9f69f76557e21f051443c20947a"},
