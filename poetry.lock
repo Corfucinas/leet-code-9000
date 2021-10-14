@@ -850,7 +850,7 @@ typing_extensions = ">=3.6,<4.0"
 
 [[package]]
 name = "xdoctest"
-version = "0.15.9"
+version = "0.15.10"
 description = "A rewrite of the builtin doctest module"
 category = "dev"
 optional = false
@@ -860,16 +860,16 @@ python-versions = "*"
 six = "*"
 
 [package.extras]
-all = ["pygments", "cmake", "codecov", "ninja", "pybind11", "scikit-build", "six", "colorama", "pytest", "pytest", "pytest-cov", "pytest", "pytest", "pytest-cov", "typing", "ipython", "ipykernel", "jupyter-client", "nbconvert", "nbformat", "pytest", "pytest-cov"]
+all = ["six", "codecov", "scikit-build", "cmake", "ninja", "pybind11", "pygments", "colorama", "pytest", "pytest", "pytest-cov", "pytest", "pytest", "pytest-cov", "typing", "nbformat", "nbconvert", "jupyter-client", "ipython", "ipykernel", "pytest", "pytest-cov"]
 colors = ["pygments", "colorama"]
-jupyter = ["ipython", "ipykernel", "jupyter-client", "nbconvert", "nbformat"]
-optional = ["pygments", "colorama", "ipython", "ipykernel", "jupyter-client", "nbconvert", "nbformat"]
-tests = ["cmake", "codecov", "ninja", "pybind11", "scikit-build", "pytest", "pytest", "pytest-cov", "pytest", "pytest", "pytest-cov", "typing", "ipython", "ipykernel", "jupyter-client", "nbconvert", "nbformat", "pytest", "pytest-cov"]
+jupyter = ["nbformat", "nbconvert", "jupyter-client", "ipython", "ipykernel"]
+optional = ["pygments", "colorama", "nbformat", "nbconvert", "jupyter-client", "ipython", "ipykernel"]
+tests = ["codecov", "scikit-build", "cmake", "ninja", "pybind11", "pytest", "pytest", "pytest-cov", "pytest", "pytest", "pytest-cov", "typing", "nbformat", "nbconvert", "jupyter-client", "ipython", "ipykernel", "pytest", "pytest-cov"]
 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "eb8c5728efa7bcea783b6bac58fe70d0aa2224881994cca66967d6c2ba117a3a"
+content-hash = "1fb98a8951bc3b4339ce3537b8dd47446ac5ae0e23d20e365628e36f88a3af3d"
 
 [metadata.files]
 appdirs = [
@@ -1284,7 +1284,6 @@ wemake-python-styleguide = [
     {file = "wemake_python_styleguide-0.15.3-py3-none-any.whl", hash = "sha256:a382f6c9ec87d56daa08a11e47cab019c99b384f1393b32564ebc74c6da80441"},
 ]
 xdoctest = [
-    {file = "xdoctest-0.15.9-py2.py3-none-any.whl", hash = "sha256:0aa507cd2260e8d88adf1f8ef93d1710b78f2c0c21f007ea95562a8f3be7cd71"},
-    {file = "xdoctest-0.15.9-py3-none-any.whl", hash = "sha256:1c7a713cab41ec50e0ebca1ad5a8e02c2202f1b81f963fa970fec9c87bbcd4f7"},
-    {file = "xdoctest-0.15.9.tar.gz", hash = "sha256:84b00921d9fd6df774b1c5f23a96c65cc35ce78147679b31af95507670547655"},
+    {file = "xdoctest-0.15.10-py3-none-any.whl", hash = "sha256:7666bd0511df59275dfe94ef94b0fde9654afd14f00bf88902fdc9bcee77d527"},
+    {file = "xdoctest-0.15.10.tar.gz", hash = "sha256:5f16438f2b203860e75ec594dbc38020df7524db0b41bb88467ea0a6030e6685"},
 ]
