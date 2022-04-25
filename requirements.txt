@@ -120,9 +120,9 @@ flake8-quotes==2.1.2 \
     --hash=sha256:c844c9592940c8926c60f00bc620808912ff2acd34923ab5338f3a5ca618a331
 flake8-rst-docstrings==0.0.12 \
     --hash=sha256:01d38327801781b26c3dfeb71ae37e5a02c5ca1b774a686f63feab8824ca6f9c
-flake8-string-format==0.2.3 \
-    --hash=sha256:774d56103d9242ed968897455ef49b7d6de272000cfa83de5814273a868832f1 \
-    --hash=sha256:68ea72a1a5b75e7018cae44d14f32473c798cf73d75cbaed86c6a9a907b770b2
+flake8-string-format==0.3.0 \
+    --hash=sha256:65f3da786a1461ef77fca3780b314edb2853c377f2e35069723348c8917deaa2 \
+    --hash=sha256:812ff431f10576a74c89be4e85b8e075a705be39bc40c4b4278b5b13e2afa9af
 flake8==3.8.4 \
     --hash=sha256:749dbbd6bfd0cf1318af27bf97a14e28e5ff548ef8e5b1566ccfb25a11e7c839 \
     --hash=sha256:aadae8761ec651813c24be05c6f7b4680857ef6afaae4651a4eccaef97ce6c3b
