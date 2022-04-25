@@ -81,8 +81,9 @@ distlib==0.3.1 \
 docutils==0.16 \
     --hash=sha256:0c5b78adfbf7762415433f5515cd5c9e762339e23369dbe8000d84a4bf4ab3af \
     --hash=sha256:c2de3a60e9e7d07be26b7f2b00ca0309c207e06c100f9cc2a94931fc75a478fc
-eradicate==1.0 \
-    --hash=sha256:4ffda82aae6fd49dfffa777a857cb758d77502a1f2e0f54c9ac5155a39d2d01a
+eradicate==2.1.0 \
+    --hash=sha256:8bfaca181db9227dc88bdbce4d051a9627604c2243e7d85324f6d6ce0fd08bb2 \
+    --hash=sha256:aac7384ab25b1bf21c4c012de9b4bf8398945a14c98c911545b2ea50ab558014
 filelock==3.0.12 \
     --hash=sha256:929b7d63ec5b7d6b71b0fa5ac14e030b3f70b75747cef1b10da9b879fef15836 \
     --hash=sha256:18d82244ee114f543149c66a6e0c14e9c4f8a1044b5cdaadd0f82159d6a6ff59
