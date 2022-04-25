@@ -203,9 +203,9 @@ pydocstyle==5.1.1 \
 pyflakes==2.2.0 \
     --hash=sha256:0d94e0e05a19e57a99444b6ddcf9a6eb2e5c68d3ca1e98e90707af8152c90a92 \
     --hash=sha256:35b2d75ee967ea93b55750aa9edbbf72813e06a66ba54438df2cfac9e3c27fc8
-pygments==2.7.1 \
-    --hash=sha256:307543fe65c0947b126e83dd5a61bd8acbd84abec11f43caebaf5534cbc17998 \
-    --hash=sha256:926c3f319eda178d1bd90851e4317e6d8cdb5e292a3386aac9bd75eca29cf9c7
+pygments==2.12.0 \
+    --hash=sha256:5eb116118f9612ff1ee89ac96437bb6b49e8f04d8a13b514ba26f620208e26eb \
+    --hash=sha256:dc9c10fb40944260f6ed4c688ece0cd2048414940f1cea51b8b226318411c519
 pyparsing==2.4.7 \
     --hash=sha256:ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b \
     --hash=sha256:c203ec8783bf771a155b207279b9bccb8dea02d8f0c9e5f8ead507bc3246ecc1
