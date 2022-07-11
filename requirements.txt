@@ -7,9 +7,8 @@ argcomplete==1.12.1 \
 astor==0.8.1 \
     --hash=sha256:070a54e890cefb5b3739d19f30f5a5ec840ffc9c50ffa7d23cc9fc1a38ebbfc5 \
     --hash=sha256:6a6effda93f4e1ce9f618779b2dd1d9d84f1e32812c23a29b3fff6fd7f63fa5e
-atomicwrites==1.4.0; sys_platform == "win32" \
-    --hash=sha256:6d1784dea7c0c8d4a5172b6c620f40b6e4cbfdf96d783691f2e1302a7b88e197 \
-    --hash=sha256:ae70396ad1a434f9c7046fd2dd196fc04b12f9e91ffb859164193be8b6168a7a
+atomicwrites==1.4.1; sys_platform == "win32" \
+    --hash=sha256:81b2c9071a49367a7f770170e5eec8cb66567cfbbc8c73d20ce5ca4a8d71cf11
 attrs==20.2.0 \
     --hash=sha256:fce7fc47dfc976152e82d53ff92fa0407700c21acd20886a13777a0d20e655dc \
     --hash=sha256:26b54ddbbb9ee1d34d5d3668dd37d6cf74990ab23c828c2888dccdceee395594
