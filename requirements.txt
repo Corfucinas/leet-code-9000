@@ -99,9 +99,9 @@ flake8-bugbear==19.8.0 \
 flake8-commas==2.0.0 \
     --hash=sha256:d3005899466f51380387df7151fb59afec666a0f4f4a2c6a8995b975de0f44b7 \
     --hash=sha256:ee2141a3495ef9789a3894ed8802d03eff1eaaf98ce6d8653a7c573ef101935e
-flake8-comprehensions==3.2.3 \
-    --hash=sha256:d5751acc0f7364794c71d06f113f4686d6e2e26146a50fa93130b9f200fe160d \
-    --hash=sha256:44eaae9894aa15f86e0c86df1e218e7917494fab6f96d28f96a029c460f17d92
+flake8-comprehensions==3.10.1 \
+    --hash=sha256:412052ac4a947f36b891143430fef4859705af11b2572fbb689f90d372cf26ab \
+    --hash=sha256:d763de3c74bc18a79c039a7ec732e0a1985b0c79309ceb51e56401ad0a2cd44e
 flake8-debugger==3.2.1 \
     --hash=sha256:712d7c1ff69ddf3f0130e94cc88c2519e720760bce45e8c330bfdcb61ab4090d
 flake8-docstrings==1.5.0 \
