@@ -83,9 +83,9 @@ docutils==0.16 \
     --hash=sha256:c2de3a60e9e7d07be26b7f2b00ca0309c207e06c100f9cc2a94931fc75a478fc
 eradicate==1.0 \
     --hash=sha256:4ffda82aae6fd49dfffa777a857cb758d77502a1f2e0f54c9ac5155a39d2d01a
-filelock==3.0.12 \
-    --hash=sha256:929b7d63ec5b7d6b71b0fa5ac14e030b3f70b75747cef1b10da9b879fef15836 \
-    --hash=sha256:18d82244ee114f543149c66a6e0c14e9c4f8a1044b5cdaadd0f82159d6a6ff59
+filelock==3.8.1 \
+    --hash=sha256:3156639b1454b5f828255abf5710f7fc1e10dac69bde3e09e6189b29a91f2505 \
+    --hash=sha256:9255d3cd8de8fcb2a441444f7a4f1949ae826da36cd070dc3e0c883614b4bbad
 flake8-bandit==2.1.2 \
     --hash=sha256:687fc8da2e4a239b206af2e54a90093572a60d0954f3054e23690739b0b0de3b
 flake8-black==0.2.1 \
