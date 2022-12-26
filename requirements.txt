@@ -116,8 +116,8 @@ flake8-isort==2.9.1 \
 flake8-polyfill==1.0.2 \
     --hash=sha256:e44b087597f6da52ec6393a709e7108b2905317d0c0b744cdca6208e670d8eda \
     --hash=sha256:12be6a34ee3ab795b19ca73505e7b55826d5f6ad7230d31b18e106400169b9e9
-flake8-quotes==2.1.2 \
-    --hash=sha256:c844c9592940c8926c60f00bc620808912ff2acd34923ab5338f3a5ca618a331
+flake8-quotes==3.3.2 \
+    --hash=sha256:6e26892b632dacba517bf27219c459a8396dcfac0f5e8204904c5a4ba9b480e1
 flake8-rst-docstrings==0.0.12 \
     --hash=sha256:01d38327801781b26c3dfeb71ae37e5a02c5ca1b774a686f63feab8824ca6f9c
 flake8-string-format==0.2.3 \
