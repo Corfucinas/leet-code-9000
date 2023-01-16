@@ -12,7 +12,7 @@ keywords = ["leetcode", "repository", "challenges", "coding"]
 python = "^3.8"
 
 [tool.poetry.dev-dependencies]
-pytest = "^6.2"
+pytest = "^7.2"
 wemake-python-styleguide = "^0.15.3"
 mypy = "^0.910"
 black = "^21.11b1"
